@@ -1,0 +1,16 @@
+.tabs {
+  flex-direction: row;
+}
+
+.tabs a {
+  background-color: white;
+  font-weight: bold;
+  color: brown;
+}
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,14 @@
+.formDiv {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  width: 50vw;
+}
+.formDiv button {
+  width: 100%;
+  font-size: large;
+}
+
+.main {
+  margin: 0 auto;
+}

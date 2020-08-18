@@ -1,0 +1,25 @@
+.main ul {
+  list-style: none;
+}
+.usersUl {
+  display: block;
+}
+.visible {
+  display: none;
+}
+li {
+  display: block;
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 90vw;
+  margin: 0 auto;
+}
+.cardsDiv {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}

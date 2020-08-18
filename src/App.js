@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./App.css"
+import HeaderContainer from "./Components/Header/HeaderContainer"
+import { Route } from "react-router-dom"
+import SuspenceHOC from "./Components/HOCs/SuspenceHOC"
+
+
+const Catalog = React.lazy(() => import("./Components/Catalog/Catalog"))
+const Cart = React.lazy(() => import("./Components/Cart/Cart"))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderContainer />
+      <Route exact path='/' render={SuspenceHOC(Catalog)} />
+      <Route path="/card" render={SuspenceHOC(Cart)} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

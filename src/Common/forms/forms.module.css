@@ -1,0 +1,16 @@
+.inputsDiv {
+  display: flex;
+}
+.inputsDiv input {
+  width: 100%;
+  padding: 1rem;
+}
+.areaDiv {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.areaDiv textarea {
+  resize: none;
+  padding: 1rem;
+  width: 100%;
+}

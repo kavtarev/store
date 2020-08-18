@@ -1,0 +1,20 @@
+.link {
+  text-decoration: none !important;
+  color: brown !important;
+}
+.linkdiv {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+.linkdiv :hover {
+  border-bottom: 1px solid brown;
+}
+.maincontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  width: 90vw;
+  margin: 0 auto 1rem;
+}

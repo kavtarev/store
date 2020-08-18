@@ -1,0 +1,9 @@
+.main {
+  width: 20vw;
+}
+.main:hover {
+  border: 1px solid brown;
+}
+.main img {
+  cursor: pointer;
+}
