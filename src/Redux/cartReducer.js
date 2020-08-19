@@ -4,8 +4,8 @@ const CLEAR_CART = "CLEAR_CART"
 
 let initialState = {
   cart: [
-    { id: 88, name: "oleg", email: "petuhov" },
-    { id: 99, name: "Iban", email: "kolopov" },
+    /*  { id: 88, name: "oleg", email: "petuhov" },
+    { id: 99, name: "Iban", email: "kolopov" }, */
   ],
 }
 
