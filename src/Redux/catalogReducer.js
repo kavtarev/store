@@ -36,10 +36,6 @@ const usersReducer = (state = initialState, action) => {
               default:
                 return state
             }
-            //if (a[action.method] > b[action.method]) return 1
-            // if (a[action.method] == b[action.method]) return 0
-            // if (a[action.method] < b[action.method]) return -1
-            //return b[action.method] - a[action.method]
           }),
         ],
       }

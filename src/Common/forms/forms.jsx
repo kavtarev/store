@@ -3,12 +3,8 @@ import style from "./forms.module.css"
 
 export const InputForm = ({ input, meta, ...props }) => {
   return (
-  <div className={style.inputsDiv}>
-   
-      
-      <input required={true}{...input} {...props}  />
-      
-      
+    <div className={style.inputsDiv}>
+      <input required={true} {...input} {...props} />
     </div>
   )
 }
