@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <HeaderContainer />
-      <Route exact path='/store' render={SuspenceHOC(Catalog)} />
-      <Route path='/store/card' render={SuspenceHOC(Cart)} />
+      <Route exact path='/' render={SuspenceHOC(Catalog)} />
+      <Route path='/card' render={SuspenceHOC(Cart)} />
     </div>
   )
 }

@@ -6,12 +6,12 @@ const Header = (props) => {
   return (
     <div className={style.maincontainer}>
       <div className={style.linkdiv}>
-        <NavLink to='/store' className={style.link}>
+        <NavLink to='/' className={style.link}>
           Catalog
         </NavLink>
       </div>
       <div className={style.linkdiv}>
-        <NavLink to='store/card' className={style.link}>
+        <NavLink to='/card' className={style.link}>
           Card
           {props.cart.length !== 0 && <span> ({props.cart.length})</span>}
         </NavLink>
